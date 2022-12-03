@@ -26,5 +26,10 @@
   "dependencies": {
     "get-audio-duration": "^3.1.1",
     "puppeteer": "^19.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.12"
   }
 }
