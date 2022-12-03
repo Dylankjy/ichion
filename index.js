@@ -17,7 +17,7 @@ const play = (filePath) => {
         }
 
         // Launch puppeteer
-        const browser = await puppeteer.launch()
+        const browser = await puppeteer.launch({ ignoreDefaultArgs: ['--mute-audio'], headless: true })
         const page = await browser.newPage()
         await page.goto(filePath)
 
