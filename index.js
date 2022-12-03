@@ -17,8 +17,8 @@ const play = (filePath) => {
         }
 
         // Launch puppeteer
-        const browser = await puppeteer.launch();
-        const page = await browser.newPage();
+        const browser = await puppeteer.launch()
+        const page = await browser.newPage()
         await page.goto(filePath)
 
         // Wait for audio to play completely and then close the browser
@@ -30,9 +30,9 @@ const play = (filePath) => {
 }
 
 const waitForAudio = (delay) => {
-    return new Promise(function(resolve) {
-        setTimeout(resolve, delay);
-    });
+    return new Promise((resolve) => {
+        setTimeout(resolve, delay)
+    })
 }
 
 module.exports = {
