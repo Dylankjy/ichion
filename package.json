@@ -1,0 +1,30 @@
+{
+  "name": "ichion",
+  "version": "1.0.0",
+  "description": "Cross-platform Node library for playing sound files",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylankjy/ichion.git"
+  },
+  "keywords": [
+    "play",
+    "sound",
+    "music",
+    "player"
+  ],
+  "author": "Dylan Kok",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Dylankjy/ichion/issues"
+  },
+  "homepage": "https://github.com/Dylankjy/ichion#readme",
+  "dependencies": {
+    "get-audio-duration": "^3.1.1",
+    "puppeteer": "^19.3.0"
+  }
+}
