@@ -15,7 +15,8 @@
     "play",
     "sound",
     "music",
-    "player"
+    "player",
+    "audio"
   ],
   "author": "Dylan Kok",
   "license": "MPL-2.0",
