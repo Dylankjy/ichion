@@ -1,6 +1,6 @@
 {
   "name": "ichion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cross-platform Node library for playing sound files",
   "main": "index.js",
   "type": "commonjs",
