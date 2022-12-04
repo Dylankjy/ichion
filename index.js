@@ -19,7 +19,7 @@ const play = (filePath) => {
         // Launch puppeteer
         const browser = await puppeteer.launch({ ignoreDefaultArgs: ['--mute-audio'], headless: true })
         const page = await browser.newPage()
-        await page.goto(filePath)
+        await page.goto('file://' + filePath)
 
         // Wait for audio to play completely and then close the browser
         waitForAudio(lengthOfAudio * 1000).then(() => {
