@@ -22,7 +22,7 @@ const play = (filePath) => {
         await page.goto('file://' + filePath)
 
         // Wait for audio to play completely and then close the browser
-        waitForAudio(lengthOfAudio * 1000).then(() => {
+        waitForAudio((lengthOfAudio * 1000) + 8000).then(() => {
             browser.close()
             return resolve()
         })
