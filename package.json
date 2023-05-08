@@ -26,7 +26,7 @@
   "homepage": "https://github.com/Dylankjy/ichion#readme",
   "dependencies": {
     "get-audio-duration": "^3.1.1",
-    "puppeteer": "^19.3.0"
+    "puppeteer": "^20.1.1"
   },
   "devDependencies": {
     "eslint": "^8.25.0",
