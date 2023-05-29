@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/Dylankjy/ichion#readme",
   "dependencies": {
-    "get-audio-duration": "^3.1.1",
+    "get-audio-duration": "^4.0.0",
     "puppeteer": "^19.3.0"
   },
   "devDependencies": {
